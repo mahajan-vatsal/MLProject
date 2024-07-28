@@ -1,0 +1,13 @@
+prefix=/Users/vatsal/Documents/GitHub/MLProject/venv
+exec_prefix=/Users/vatsal/Documents/GitHub/MLProject/venv
+libdir=/Users/vatsal/Documents/GitHub/MLProject/venv/lib
+sharedlibdir=/Users/vatsal/Documents/GitHub/MLProject/venv/lib
+includedir=/Users/vatsal/Documents/GitHub/MLProject/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
